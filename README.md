@@ -21,7 +21,7 @@ python train_end_to_end.py --data_path <your_data_path> --log_dir './results'
 ```
 
 ## Evaluation
-1. Download pretrained checkpoint from: [depth_model](https://drive.google.com/drive/folders/1Nyi9E_LDHeWW8AnkraxpTyWuUwG8BS0p?usp=drive_link). Create a folder named ```pretrained_checkpoints``` in this repo and place the downloaded model in it.
+1. Download pretrained checkpoint from: [depth_model](https://drive.google.com/file/d/14WFdDHRtlmWqpE_Tws3c_NaSxWXEC6oX/view?usp=sharing). Create a folder named ```pretrained_checkpoints``` in this repo and place the downloaded model in it.
 2. Evaluate the model:
 ```
 python evaluate_depth_new.py --data_path <your_data_path> --load_weights_folder './pretrained_checkpoints'
